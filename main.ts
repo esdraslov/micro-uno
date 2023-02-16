@@ -1,7 +1,7 @@
 namespace microUno {
     //% block="uno plot X: %x Y: %y"
     //% x.min=0 x.max=4
-    //% y.min=1 y.max=2
+    //% y.min=1 y.max=5
     export function unoLed (x: number, y: number){
         for (let i = 0; i < y; i++) {
             led.plot(x, i)
@@ -10,7 +10,7 @@ namespace microUno {
     }
     //% block="uno unplot X: %x Y: %y"
     //% x.min=0 x.max=4
-    //% y.min=1 y.max=2
+    //% y.min=1 y.max=5
     export function unUnoLed(x: number, y: number) {
         for (let i = 0; i < y; i++) {
             led.unplot(x, i)
