@@ -62,6 +62,12 @@ namespace microUno {
     }
     //% block="show melody notes %melody"
     export function unoShowMelody(melody: string) {
-        
+        if(melody == "beethoven virus"){
+            led.plot(0, 0)
+            led.plot(1, 3)
+            led.plot(2, 0)
+            led.plot(3, 3)
+            led.plot(4, 0)
+        }
     }
 }
